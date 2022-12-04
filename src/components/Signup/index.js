@@ -1,5 +1,6 @@
 import React, { useState, useContext } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+
 import { createUserWithEmailAndPassword, updateProfile } from 'firebase/auth';
 import { auth } from '../../firebase';
 import { validations } from '../../utils/validations';
@@ -52,12 +53,15 @@ const Signup = () => {
           onSubmit={handleSubmission}
         >
           <div className="text-center">
-            <legend className="text-2xl font-bold">Sign Up</legend>
-            <Link to="/login">
-              <span className="text-gray-700 text-lg text-center">
-                Already Have an account?{' '}
-              </span>
-            </Link>
+            <legend className="text-2xl mb-2 font-bold">Sign Up</legend>
+            <div className="flex justify-center items-center">
+              <p className="text-gray-700 text-lg mr-2">
+                Already Have an account?
+              </p>
+              <NavLink to="/login" className="text-blue-600 underline">
+                Login
+              </NavLink>
+            </div>
           </div>
           <fieldset className="my-3">
             <input

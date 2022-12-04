@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '../../firebase';
+
 import { validations } from '../../utils/validations';
 
 const Login = () => {
@@ -18,7 +20,7 @@ const Login = () => {
   const handleSubmission = (event) => {
     event.preventDefault();
     signInWithEmailAndPassword(auth, email, password)
-      .then(async (res) => {
+      .then((res) => {
         window.location.href = '/';
       })
       .catch((err) => {
@@ -34,13 +36,13 @@ const Login = () => {
           onSubmit={handleSubmission}
         >
           <div className="text-center">
-            <legend className="text-2xl font-bold">Sign In</legend>
-            <Link to="/signup">
-              <span className="text-gray-700 text-lg text-center">
-                {' '}
-                New here?{' '}
-              </span>
-            </Link>
+            <legend className="text-2xl mb-2 font-bold">Sign In</legend>
+            <div className="flex justify-center items-center">
+              <p className="text-gray-700 text-xl mr-2">New here?</p>
+              <NavLink to="/signup " className="text-blue-600 underline">
+                Sign Up
+              </NavLink>
+            </div>
           </div>
           <fieldset className="my-3">
             <input
@@ -55,7 +57,6 @@ const Login = () => {
               }}
             />
             <span className="text-red-500">{errors.email}</span>
-
             <input
               className="block w-full my-3 py-2 px-3 border border-gray-400 rounded-md"
               type="password"

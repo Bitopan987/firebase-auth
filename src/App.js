@@ -1,14 +1,17 @@
+import { useEffect, useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { UserProvider } from './context/UserContext';
+
 import { getAuth, signOut } from 'firebase/auth';
+import { auth } from './firebase';
+
 import Home from './components/Home/index';
 import Signup from './components/Signup/index';
 import Login from './components/Login/index';
 import Products from './components/Products/index';
 import NoMatch from './components/NoMatch/index';
 import Header from './components/Header/index';
-import { useEffect, useState } from 'react';
-import { auth } from './firebase';
+
 const authSignOut = getAuth();
 
 const App = () => {
@@ -50,7 +53,7 @@ const App = () => {
   );
 };
 
-function AuthenticatedApp(props) {
+function AuthenticatedApp() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
@@ -60,7 +63,7 @@ function AuthenticatedApp(props) {
   );
 }
 
-function UnAuthenticatedApp(props) {
+function UnAuthenticatedApp() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />

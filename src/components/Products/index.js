@@ -1,7 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
+
 import data from '../../data/data.json';
 import CATEGORIES from './constants';
+
 import Select from 'react-select';
+
+import Product from './Product';
 
 const Products = () => {
   let PRODUCTS = data[0].ProductsData;
@@ -16,24 +20,26 @@ const Products = () => {
     setProducts(filtered);
   };
 
-  const filterProducts = () => {
-    const filtered = PRODUCTS.filter((hotel) => condition(hotel));
-    setProducts(filtered);
-  };
+  const condition = useCallback(
+    (product) => {
+      const categoryCondition = selectedCategory
+        ? product.category
+            .toLowerCase()
+            .includes(selectedCategory.value.toLowerCase())
+        : true;
+      return categoryCondition;
+    },
+    [selectedCategory]
+  );
 
-  const condition = (product) => {
-    const categoryCondition = selectedCategory
-      ? product.category
-          .toLowerCase()
-          .includes(selectedCategory.value.toLowerCase())
-      : true;
-    console.log(categoryCondition, selectedCategory, 'test');
-    return categoryCondition;
-  };
+  const filterProducts = useCallback(() => {
+    const filtered = PRODUCTS.filter((product) => condition(product));
+    setProducts(filtered);
+  }, [PRODUCTS, condition]);
 
   useEffect(() => {
     filterProducts();
-  }, [selectedCategory]);
+  }, [filterProducts, selectedCategory]);
 
   return (
     <section className="pt-30 px-20">
@@ -72,24 +78,5 @@ const Products = () => {
     </section>
   );
 };
-
-function Product(props) {
-  return (
-    <div className="bg-slate-100 w-[24rem] rounded-md shadow-md m-3 px-6 py-4">
-      <img className="w-full py-2 h-80" src={props.cover} alt={props.title} />
-      <div className="product-item-details">
-        <p className="font-normal text-gray-400 text-xl">{props.name}</p>
-        <div className="flex items-center">
-          <span className="mr-4 font-semibold text-gray-700 text-xl">
-            Rs {props.price}
-          </span>
-          <del className="mr-2 text-xl text-gray-400 ">Rs{props.mrp}</del>
-          <p className="text-green-600 font-semibold">{props.discount} off</p>
-        </div>
-        <button className="btn-blue mt-4">Add To Cart </button>
-      </div>
-    </div>
-  );
-}
 
 export default Products;
