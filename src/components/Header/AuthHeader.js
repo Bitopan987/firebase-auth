@@ -13,9 +13,8 @@ const AuthHeader = (props) => {
       <NavLink
         to={{
           user: props.user,
-          pathname: `/profiles/${user.username}`,
         }}
-        className="btn mr-5 mt:5 md:mt-0"
+        className="btn mr-2 mt:5 md:mt-0"
       >
         <span className="flex items-center text-xl mx-3">
           <Avatar
@@ -31,7 +30,7 @@ const AuthHeader = (props) => {
       <NavLink
         to="/"
         className={({ isActive }) =>
-          `btn mr-5 mt:5 md:mt-0 ${isActive ? 'btn-active' : undefined}`
+          `btn mr-2 mt:5 md:mt-0 ${isActive ? 'btn-active' : undefined}`
         }
       >
         Home
@@ -39,7 +38,7 @@ const AuthHeader = (props) => {
       <NavLink
         to="/products"
         className={({ isActive }) =>
-          `btn mr-5 mt:5 md:mt-0 ${isActive ? 'btn-active' : undefined}`
+          `btn mr-2 mt:5 md:mt-0 ${isActive ? 'btn-active' : undefined}`
         }
       >
         Products

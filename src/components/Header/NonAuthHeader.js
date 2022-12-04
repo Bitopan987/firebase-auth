@@ -6,7 +6,7 @@ const NonAuthHeader = () => {
       <NavLink
         to="/"
         className={({ isActive }) =>
-          `btn mr-5 mt:5 md:mt-0 ${isActive ? 'btn-active' : undefined}`
+          `btn mt:5 md:mt-0 ${isActive ? 'btn-active' : undefined}`
         }
       >
         Home
