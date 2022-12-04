@@ -1,0 +1,368 @@
+[
+  {
+    "ProductsData": [
+      {
+        "id": "1",
+        "name": "HOTSTYLE",
+        "cover": "https://rukminim1.flixcart.com/image/612/612/xif0q/shoe/u/r/q/10-capsnew-10-hotstyle-black-black-original-imag4s3fkbpjzvfx-bb.jpeg?q=70",
+        "price": 369,
+        "mrp": 450,
+        "rating": 2,
+        "discount": "33%",
+        "stock": "In",
+        "category": "shoes"
+      },
+      {
+        "id": "2",
+        "name": "Eagle Fly Watch",
+        "cover": "https://rukminim1.flixcart.com/image/612/612/l3es13k0/watch/v/x/y/1-bl-1013-dtl-blue-blk-flozio-men-original-imagej4fmxtxyscv.jpeg?q=70",
+        "price": 339,
+        "mrp": 700,
+        "rating": 5,
+        "discount": "88%",
+        "stock": "In",
+        "category": "watch"
+      },
+      {
+        "id": "3",
+        "name": "NIKE",
+        "cover": "https://rukminim1.flixcart.com/image/612/612/xif0q/short/e/s/o/m-cw6108-016-nike-original-imag6z3jhdhkzfzf-bb.jpeg?q=70",
+        "price": 796,
+        "mrp": 900,
+        "rating": 5,
+        "discount": "20%",
+        "stock": "In",
+        "category": "half-pant"
+      },
+      {
+        "id": "4",
+        "name": "UNIQ",
+        "cover": "https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/r/i/e/m-hr7567-adidas-original-imagg392amghhjgy.jpeg?q=70",
+        "price": 299,
+        "rating": 5,
+        "mrp": 400,
+        "discount": "30%",
+        "stock": "In",
+        "category": "T-shirt"
+      },
+      {
+        "id": "5",
+        "name": "RTM",
+        "cover": "https://rukminim1.flixcart.com/image/612/612/k9stjm80/kids-apparel-combo/g/r/c/4-5-years-kidsargoldbp-royalblueset-rjm-original-imafrgfw5en757bu.jpeg?q=70",
+        "price": 519,
+        "rating": 4,
+        "mrp": 1000,
+        "discount": "55%",
+        "stock": "In",
+        "category": "shorts"
+      },
+      {
+        "id": "6",
+        "name": "Adrenex blue",
+        "cover": "https://rukminim1.flixcart.com/image/612/612/l3uhvgw0/short/y/p/t/m-adss22sh0003a-adrenex-original-imagevzy4eprvbjv.jpeg?q=70",
+        "price": 815,
+        "mrp": 1260,
+        "rating": 4,
+        "discount": "45%",
+        "stock": "In",
+        "category": "half-pant"
+      },
+      {
+        "id": "7",
+        "name": "Christy World",
+        "cover": "https://rukminim1.flixcart.com/image/612/612/k0zlsi80/jacket/m/h/j/l-mens-jkt-009-mrn-candy-house-original-imafg4hzyjzfffq2.jpeg?q=70",
+        "price": 888,
+        "mrp": 2999,
+        "rating": 4,
+        "discount": "75%",
+        "stock": "In",
+        "category": "jacket"
+      },
+      {
+        "id": "8",
+        "name": "FLOZIO",
+        "cover": "https://rukminim1.flixcart.com/image/612/612/l19m93k0/watch/6/r/g/1-484l4-black-unique-arrow-flozio-boys-original-imagcvgygehtnkpk.jpeg?q=70",
+        "price": 255,
+        "mrp": 555,
+        "rating": 3,
+        "discount": "45%",
+        "stock": "In",
+        "category": "watch"
+      },
+      {
+        "id": "9",
+        "name": "Adrenex",
+        "cover": "https://rukminim1.flixcart.com/image/612/612/krf91u80/t-shirt/z/q/o/m-adss21cn002e-adrenex-original-imag57xjkzexs2xe.jpeg?q=70",
+        "price": 299,
+        "mrp": 599,
+        "rating": 2,
+        "discount": "55%",
+        "stock": "In",
+        "category": "T-shirt"
+      },
+      {
+        "id": "10",
+        "name": "HELMONT",
+        "cover": "https://rukminim1.flixcart.com/image/612/612/l31x2fk0/t-shirt/p/l/j/m-hmd-1057black-helmont-original-image92fhy8jqnfv.jpeg?q=70",
+        "price": 455,
+        "mrp": 700,
+        "rating": 3,
+        "discount": "18%",
+        "stock": "In",
+        "category": "T-shirt"
+      },
+      {
+        "id": "11",
+        "name": "Adrenex Grey",
+        "cover": "https://rukminim1.flixcart.com/image/612/612/xif0q/short/y/h/t/m-adss21st002a-adrenex-original-imagfg7tfyzgh4ya-bb.jpeg?q=70",
+        "price": 418,
+        "mrp": 600,
+        "rating": 4,
+        "discount": "95%",
+        "stock": "In",
+        "category": "half-pant"
+      },
+      {
+        "id": "12",
+        "name": "Bond Street",
+        "cover": "https://rukminim1.flixcart.com/image/612/612/xif0q/shoe/z/b/l/6-bse079-bond-street-by-red-tape-black-original-imagjvhykefrx4sd.jpeg?q=70",
+        "price": 1369,
+        "mrp": 5299,
+        "rating": 2,
+        "discount": "75%",
+        "stock": "In",
+        "category": "shoes"
+      },
+      {
+        "id": "13",
+        "name": "RoadStar",
+        "cover": "https://rukminim1.flixcart.com/image/612/612/k3orqfk0/jacket/z/a/2/xxl-9564199-roadster-original-imafmqvzau8azrry.jpeg?q=70",
+        "price": 745,
+        "mrp": 2133,
+        "rating": 4,
+        "discount": "79%",
+        "stock": "In",
+        "category": "jacket"
+      },
+      {
+        "id": "14",
+        "name": "UD Watch",
+        "cover": "https://rukminim1.flixcart.com/image/612/612/k3xcdjk0/watch/z/s/r/paidu-unique-designed-professioal-and-luxury-style-different-005-original-imafmy63f7mzzftt.jpeg?q=70",
+        "price": 600,
+        "mrp": 900,
+        "rating": 3,
+        "discount": "45%",
+        "stock": "In",
+        "category": "watch"
+      },
+      {
+        "id": "15",
+        "name": "PUMA",
+        "cover": "https://rukminim1.flixcart.com/image/612/612/xif0q/jacket/w/7/e/m-1-no-84777411-puma-original-imag9hy5mx6mzkkm-bb.jpeg?q=70",
+        "price": 1850,
+        "mrp": 2267,
+        "rating": 5,
+        "discount": "25%",
+        "stock": "In",
+        "category": "jacket"
+      },
+      {
+        "id": "16",
+        "name": "UNIQ",
+        "cover": "https://rukminim1.flixcart.com/image/612/612/khkvukw0/kids-apparel-combo/r/2/t/8-9-years-bnredbp-redset-uniq-original-imafxkdeaxzunbae.jpeg?q=70",
+        "price": 339,
+        "mrp": 457,
+        "rating": 3,
+        "discount": "19%",
+        "stock": "In",
+        "category": "shorts"
+      },
+      {
+        "id": "17",
+        "name": "World Wear Footwear",
+        "cover": "https://rukminim1.flixcart.com/image/612/612/xif0q/shoe/l/u/c/10-8050-black-red-waan-black-red-original-imag5psezyhhwwks-bb.jpeg?q=70",
+        "price": 299,
+        "mrp": 655,
+        "rating": 3,
+        "discount": "70%",
+        "stock": "In",
+        "category": "shoes"
+      },
+      {
+        "id": "18",
+        "name": "Allen Solly",
+        "cover": "https://rukminim1.flixcart.com/image/612/612/ktvucnk0/watch/p/p/3/as000026a-allen-solly-men-original-imag74gfdpygggzr.jpeg?q=70",
+        "price": 999,
+        "mrp": 1400,
+        "rating": 3,
+        "discount": "58%",
+        "stock": "In",
+        "category": "watch"
+      },
+      {
+        "id": "19",
+        "name": "ADIDAS",
+        "cover": "https://rukminim1.flixcart.com/image/612/612/kfoapow0-0/t-shirt/y/o/9/m-fl5724-adidas-original-imafw2kdfzxwnbnz.jpeg?q=70",
+        "price": 1049,
+        "mrp": 1257,
+        "rating": 5,
+        "discount": "30%",
+        "stock": "In",
+        "category": "T-shirt"
+      },
+      {
+        "id": "20",
+        "name": "ACCOR",
+        "cover": "https://rukminim1.flixcart.com/image/612/612/ky7lci80/kids-apparel-combo/y/z/7/5-6-years-lg3blkset-paris2021messitop-uniq-original-imagahtq8gkffggp.jpeg?q=70",
+        "price": 404,
+        "mrp": 500,
+        "rating": 3,
+        "discount": "15%",
+        "stock": "In",
+        "category": "shorts"
+      },
+      {
+        "id": "21",
+        "name": "Adrenex",
+        "cover": "https://rukminim1.flixcart.com/image/612/612/xif0q/jacket/f/1/b/m-1-yes-adaw21jk067a-adrenex-original-imag8m7djapqgbxa-bb.jpeg?q=70",
+        "price": 1719,
+        "mrp": 2166,
+        "rating": 3,
+        "discount": "55%",
+        "stock": "Out",
+        "category": "jacket"
+      },
+      {
+        "id": "22",
+        "name": "TRIPR",
+        "cover": "https://rukminim1.flixcart.com/image/612/612/xif0q/short/v/k/c/l-tnv-rdshortabs1-tripr-original-imagby6ywq87gxgg-bb.jpeg?q=70",
+        "price": 428,
+        "mrp": 2999,
+        "rating": 3,
+        "discount": "85%",
+        "stock": "In",
+        "category": "half-pant"
+      },
+      {
+        "id": "23",
+        "name": "MIKE Running Shoe",
+        "cover": "https://rukminim1.flixcart.com/image/832/832/l407mvk0/shoe/7/e/t/-original-imagfyy3fczzhbrh.jpeg?q=70",
+        "price": 1500,
+        "mrp": 1700,
+        "rating": 5,
+        "discount": "29%",
+        "stock": "In",
+        "category": "shoes"
+      },
+      {
+        "id": "24",
+        "name": "Just Rider",
+        "cover": "https://rukminim1.flixcart.com/image/612/612/kobspe80/t-shirt/e/v/o/l-11999506-hrx-by-hrithik-roshan-original-imag2t7ydnmqresj.jpeg?q=70",
+        "price": 387,
+        "mrp": 478,
+        "rating": 3,
+        "discount": "25%",
+        "stock": "In",
+        "category": "T-shirt"
+      },
+      {
+        "id": "25",
+        "name": "REEBOK",
+        "cover": "https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/q/a/b/m-hr8104-reebok-original-imagh3nys6ptgjcx.jpeg?q=70",
+        "price": 499,
+        "rating": 588,
+        "discount": "22%",
+        "stock": "In",
+        "category": "T-shirt"
+      },
+      {
+        "id": "26",
+        "name": "FIRST Running Shoe",
+        "cover": "https://rukminim1.flixcart.com/image/612/612/xif0q/shoe/6/a/o/6-11g-787-6-campus-l-gry-blk-original-imaghycgz4ruwjxy.jpeg?q=70",
+        "price": 1360,
+        "mrp": 1470,
+        "rating": 4,
+        "discount": "22%",
+        "stock": "In",
+        "category": "shoes"
+      },
+      {
+        "id": "27",
+        "name": "HRX",
+        "cover": "https://rukminim1.flixcart.com/image/612/612/k3orqfk0/jacket/2/v/e/3xl-9445523-hrx-by-hrithik-roshan-original-imafmqwchyqbdg5t.jpeg?q=70",
+        "price": 1619,
+        "mrp": 1900,
+        "rating": 2,
+        "discount": "45%",
+        "stock": "Out",
+        "category": "jacket"
+      },
+      {
+        "id": "28",
+        "name": "ILYK",
+        "cover": "https://rukminim1.flixcart.com/image/612/612/kij6f0w0-0/kids-apparel-combo/6/z/l/13-14-years-bar2020yellowbp-navyset-uniq-original-imafyapuaqt2kgmx.jpeg?q=70",
+        "price": 332,
+        "mrp": 600,
+        "rating": 5,
+        "discount": "20%",
+        "stock": "In",
+        "category": "shorts"
+      },
+      {
+        "id": "29",
+        "name": "Bersache",
+        "cover": "https://rukminim1.flixcart.com/image/612/612/l55nekw0/shoe/j/v/1/10-ori-9027-bersache-light-grey-original-imagfwbhssra8zst.jpeg?q=70",
+        "price": 1299,
+        "mrp": 1380,
+        "rating": 4,
+        "discount": "15%",
+        "stock": "In",
+        "category": "shoes"
+      },
+      {
+        "id": "30",
+        "name": "NIKE",
+        "cover": "https://rukminim1.flixcart.com/image/612/612/xif0q/short/p/x/4/m-dm6830-657-nike-original-imaggsaucrmgfzjb.jpeg?q=70",
+        "price": 500,
+        "mrp": 2000,
+        "rating": 3,
+        "discount": "85%",
+        "stock": "In",
+        "category": "half-pant"
+      },
+      {
+        "id": "31",
+        "name": "Peter EngLand",
+        "cover": "https://rukminim1.flixcart.com/image/612/612/kvba7bk0/watch/a/9/k/1-pe000020b-peter-england-men-original-imag88qybgsctfnf.jpeg?q=70",
+        "price": 768,
+        "mrp": 1545,
+        "rating": 3,
+        "discount": "58%",
+        "stock": "In",
+        "category": "watch"
+      },
+      {
+        "id": "32",
+        "name": "M7 by Metronaut",
+        "cover": "https://rukminim1.flixcart.com/image/612/612/jsuoivk0/jacket/p/x/j/l-4923945-hrx-by-hrithik-roshan-original-imafecb3skhfbzwz.jpeg?q=70",
+        "price": 739,
+        "mrp": 1000,
+        "rating": 4,
+        "discount": "75%",
+        "stock": "In",
+        "category": "jacket"
+      },
+      {
+        "id": "33",
+        "name": "Red-Tape Shoe ",
+        "cover": "https://rukminim1.flixcart.com/image/612/612/xif0q/shoe/o/e/v/-original-imagg3absfpktngh.jpeg?q=70",
+        "price": 1469,
+        "mrp": 1700,
+        "rating": 2,
+        "discount": "49%",
+        "stock": "In",
+        "category": "shoes"
+      }
+    ]
+  }
+]
