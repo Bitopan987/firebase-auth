@@ -1,7 +1,7 @@
 const Product = (props) => {
   const { cover, title, name, price, mrp, discount } = props;
   return (
-    <div className="bg-slate-100 delay-150 hover:scale-y-105 transition duration-300 ease-in-out w-[16rem] rounded-md shadow-md my-4  px-4 py-4">
+    <div className="bg-slate-100 delay-150 hover:scale-y-105 transition duration-300 ease-in-out w-[18rem] rounded-md shadow-md my-4  px-4 py-4">
       <img className="w-full py-2 h-64" src={cover} alt={title} />
       <div>
         <p className="font-normal text-gray-400 text-xl">{name}</p>

@@ -68,7 +68,7 @@ const Products = () => {
       </div>
       <div className="flex justify-between flex-wrap">
         {products.length ? (
-          products.map((products) => <Product {...products} />)
+          products.map((product) => <Product key={product.id} {...product} />)
         ) : (
           <div>
             <h1 className="font-normal text-2xl">No Results Found</h1>
