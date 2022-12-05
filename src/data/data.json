@@ -9,7 +9,6 @@
         "mrp": 450,
         "rating": 2,
         "discount": "33%",
-        "stock": "In",
         "category": "shoes"
       },
       {
@@ -20,7 +19,6 @@
         "mrp": 700,
         "rating": 5,
         "discount": "88%",
-        "stock": "In",
         "category": "watch"
       },
       {
@@ -31,7 +29,6 @@
         "mrp": 900,
         "rating": 5,
         "discount": "20%",
-        "stock": "In",
         "category": "half-pant"
       },
       {
@@ -42,7 +39,6 @@
         "rating": 5,
         "mrp": 400,
         "discount": "30%",
-        "stock": "In",
         "category": "T-shirt"
       },
       {
@@ -53,7 +49,6 @@
         "rating": 4,
         "mrp": 1000,
         "discount": "55%",
-        "stock": "In",
         "category": "shorts"
       },
       {
@@ -64,7 +59,6 @@
         "mrp": 1260,
         "rating": 4,
         "discount": "45%",
-        "stock": "In",
         "category": "half-pant"
       },
       {
@@ -75,7 +69,6 @@
         "mrp": 2999,
         "rating": 4,
         "discount": "75%",
-        "stock": "In",
         "category": "jacket"
       },
       {
@@ -86,7 +79,6 @@
         "mrp": 555,
         "rating": 3,
         "discount": "45%",
-        "stock": "In",
         "category": "watch"
       },
       {
@@ -97,7 +89,6 @@
         "mrp": 599,
         "rating": 2,
         "discount": "55%",
-        "stock": "In",
         "category": "T-shirt"
       },
       {
@@ -108,7 +99,6 @@
         "mrp": 700,
         "rating": 3,
         "discount": "18%",
-        "stock": "In",
         "category": "T-shirt"
       },
       {
@@ -119,7 +109,6 @@
         "mrp": 600,
         "rating": 4,
         "discount": "95%",
-        "stock": "In",
         "category": "half-pant"
       },
       {
@@ -130,7 +119,6 @@
         "mrp": 5299,
         "rating": 2,
         "discount": "75%",
-        "stock": "In",
         "category": "shoes"
       },
       {
@@ -141,7 +129,6 @@
         "mrp": 2133,
         "rating": 4,
         "discount": "79%",
-        "stock": "In",
         "category": "jacket"
       },
       {
@@ -152,7 +139,6 @@
         "mrp": 900,
         "rating": 3,
         "discount": "45%",
-        "stock": "In",
         "category": "watch"
       },
       {
@@ -163,7 +149,6 @@
         "mrp": 2267,
         "rating": 5,
         "discount": "25%",
-        "stock": "In",
         "category": "jacket"
       },
       {
@@ -174,7 +159,6 @@
         "mrp": 457,
         "rating": 3,
         "discount": "19%",
-        "stock": "In",
         "category": "shorts"
       },
       {
@@ -185,7 +169,6 @@
         "mrp": 655,
         "rating": 3,
         "discount": "70%",
-        "stock": "In",
         "category": "shoes"
       },
       {
@@ -196,7 +179,6 @@
         "mrp": 1400,
         "rating": 3,
         "discount": "58%",
-        "stock": "In",
         "category": "watch"
       },
       {
@@ -207,7 +189,6 @@
         "mrp": 1257,
         "rating": 5,
         "discount": "30%",
-        "stock": "In",
         "category": "T-shirt"
       },
       {
@@ -218,7 +199,6 @@
         "mrp": 500,
         "rating": 3,
         "discount": "15%",
-        "stock": "In",
         "category": "shorts"
       },
       {
@@ -229,7 +209,6 @@
         "mrp": 2166,
         "rating": 3,
         "discount": "55%",
-        "stock": "Out",
         "category": "jacket"
       },
       {
@@ -240,7 +219,6 @@
         "mrp": 2999,
         "rating": 3,
         "discount": "85%",
-        "stock": "In",
         "category": "half-pant"
       },
       {
@@ -251,7 +229,6 @@
         "mrp": 1700,
         "rating": 5,
         "discount": "29%",
-        "stock": "In",
         "category": "shoes"
       },
       {
@@ -262,18 +239,16 @@
         "mrp": 478,
         "rating": 3,
         "discount": "25%",
-        "stock": "In",
         "category": "T-shirt"
       },
       {
         "id": "25",
         "name": "REEBOK",
-        "cover": "https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/q/a/b/m-hr8104-reebok-original-imagh3nys6ptgjcx.jpeg?q=70",
+        "cover": "https://rukminim1.flixcart.com/image/612/612/xif0q/shoe/c/d/i/7-95000215-41-roamra-white-original-imag4ahytjmqdzz8-bb.jpeg?q=70",
         "price": 499,
         "rating": 588,
         "discount": "22%",
-        "stock": "In",
-        "category": "T-shirt"
+        "category": "shoes"
       },
       {
         "id": "26",
@@ -283,7 +258,6 @@
         "mrp": 1470,
         "rating": 4,
         "discount": "22%",
-        "stock": "In",
         "category": "shoes"
       },
       {
@@ -294,7 +268,6 @@
         "mrp": 1900,
         "rating": 2,
         "discount": "45%",
-        "stock": "Out",
         "category": "jacket"
       },
       {
@@ -305,7 +278,6 @@
         "mrp": 600,
         "rating": 5,
         "discount": "20%",
-        "stock": "In",
         "category": "shorts"
       },
       {
@@ -316,7 +288,6 @@
         "mrp": 1380,
         "rating": 4,
         "discount": "15%",
-        "stock": "In",
         "category": "shoes"
       },
       {
@@ -327,7 +298,6 @@
         "mrp": 2000,
         "rating": 3,
         "discount": "85%",
-        "stock": "In",
         "category": "half-pant"
       },
       {
@@ -338,7 +308,6 @@
         "mrp": 1545,
         "rating": 3,
         "discount": "58%",
-        "stock": "In",
         "category": "watch"
       },
       {
@@ -349,7 +318,6 @@
         "mrp": 1000,
         "rating": 4,
         "discount": "75%",
-        "stock": "In",
         "category": "jacket"
       },
       {
@@ -360,8 +328,27 @@
         "mrp": 1700,
         "rating": 2,
         "discount": "49%",
-        "stock": "In",
         "category": "shoes"
+      },
+      {
+        "id": "34",
+        "name": "PLUS91",
+        "cover": "https://rukminim1.flixcart.com/image/612/612/xif0q/jacket/t/d/n/l-kttmensdenimjacket87-kotty-original-imafng4uh2dh8xsx-bb.jpeg?q=70",
+        "price": 1619,
+        "mrp": 1900,
+        "rating": 2,
+        "discount": "45%",
+        "category": "jacket"
+      },
+      {
+        "id": "35",
+        "name": "White Luxury",
+        "cover": "https://rukminim1.flixcart.com/image/612/612/ktlu9ow0/jacket/h/w/c/m-1-no-purple-denim-jacket-for-men-white-luxury-original-imag6wvfnpaefdpf.jpeg?q=70",
+        "price": 1500,
+        "mrp": 1900,
+        "rating": 2,
+        "discount": "25%",
+        "category": "jacket"
       }
     ]
   }
