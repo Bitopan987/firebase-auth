@@ -9,7 +9,7 @@ const Header = ({ handleLogout }) => {
   const userData = useContext(UserContext);
   const { isLoggedIn } = userData;
   return (
-    <header className="flex fixed w-full items-center justify-between sm:flex-col bg-gray-50 px-20 py-3 shadow-sm rounded-md md:flex-row">
+    <header className="flex fixed z-10 w-full items-center justify-between sm:flex-col bg-gray-50 px-20 py-3 shadow-sm rounded-md md:flex-row">
       <NavLink to="/">
         <div className="w-28">
           <img alt="Home.jpeg" src="/images/logo.png"></img>

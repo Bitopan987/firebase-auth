@@ -45,18 +45,18 @@ const Products = () => {
     <section className="pt-30 px-20">
       <div className="pt-24 mb-8 flex justify-between items-center">
         <div className="flex items-center ">
-          <h2 className="text-2xl mb-2 mr-4 font-bold  text-gray-400">
+          <h2 className="text-xl mb-2 mr-4 font-bold  text-gray-400">
             Search Products here :
           </h2>
           <input
             type="text"
-            className="block w-[24rem] py-2 px-3 border border-gray-400 rounded-md"
+            className="block w-[16rem] py-2 px-3 border border-gray-400 rounded-md"
             placeholder="Enter Product Name"
             onChange={(e) => handleInputChange(e)}
           ></input>
         </div>
-        <div className="flex items-center mr-4">
-          <h2 className="text-2xl mb-2 mr-4 font-bold  text-gray-400">
+        <div className="flex items-center">
+          <h2 className="text-xl mb-2 mr-4 font-bold  text-gray-400">
             Search by Category :
           </h2>
           <Select
@@ -66,7 +66,7 @@ const Products = () => {
           />
         </div>
       </div>
-      <div className="flex justify-left flex-wrap">
+      <div className="flex justify-between flex-wrap">
         {products.length ? (
           products.map((products) => <Product {...products} />)
         ) : (
